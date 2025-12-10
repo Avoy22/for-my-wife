@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#ffffff">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>For You</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="welcomeOverlay">
+  <div class="welcomeBox">
+    <h1>Welcome My Love 💖</h1>
+    <p>This space is only for you.</p>
+    <button id="enterBtn">Enter</button>
+  </div>
+</div>
+
+  <!-- Starry background -->
+  <canvas id="stars"></canvas>
+
+  <!-- Floating love notes overlay -->
+  <div id="loveNotes"></div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <p id="skyName" class="sky-name hidden">💖 Sorry Jaan 💖</p>
+    <button id="themeToggle" class="cta">Switch Mood 🌞🌙</button>
+    <h1 class="glow">For my beautiful wife</h1>
+    <h1 class="glow">I know I hurt you… and I’m truly sorry.</h1>
+    <p class="subtitle">This site is written only for you.</p>
+    <p class="subtitle">I’m sorry jaan. I love you amr lokkhita. I’m learning—just to make you smile.</p>
+    <button id="enterBtn" class="cta">Welcome Mrs. Sumi</button>
+  </header>
+
+  <!-- Main Content -->
+  <main id="content" class="hidden">
+    <!-- Timeline Carousel -->
+    <section class="timeline">
+      <h2>Our little moments</h2>
+      <div class="carousel">
+        <div class="slide">
+          <img src="assets/images/photo1.jpg" alt="I will never hurt you again." />
+          <p>I will never hurt you again.💕</p>
+        </div>
+        <div class="slide">
+          <img src="assets/images/photo2.jpg" alt="We won't never leave us alone." />
+          <p>We won't never leave us alone.</p>
+        </div>
+        <div class="slide">
+          <img src="assets/images/photo3.jpg" alt="Always stay by my side like this." />
+          <p>Always stay by my side like this.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Love Letter -->
+    <section class="letter">
+      <h2>A letter from my heart</h2>
+      <div class="paper">
+        <p id="loveLetter"></p>
+      </div>
+    </section>
+
+    <section class="reasons">
+  <h2>Why You Mean Everything to Me</h2>
+  <div class="cards">
+    <div class="card">💫 Your Smile</div>
+    <div class="card">🌹 Your Patience</div>
+    <div class="card">❤️ Your Love</div>
+    <div class="card">💪 Your Strength</div>
+  </div>
+</section>
+
+<section class="promises">
+  <h2>My Promises From Today</h2>
+  <ul>
+    <li class="promise"> I promise to listen, not argue.</li>
+    <li class="promise"> I promise to respect your feelings.</li>
+    <li class="promise"> I promise to grow as a better husband.</li>
+    <li class="promise"> I promise to never take you for granted.</li>
+  </ul>
+</section>
+
+<section class="memory">
+  <h2>Memory Spark</h2>
+  <p id="spark"></p>
+</section>
+
+<section class="ending">
+  <h2>If your heart allows, can I try again… properly this time?</h2>
+  <button class="cta" id="finalBtn">I’m Yours</button>
+<div id="finalMessage" class="hidden final-screen">
+  <h1>Thank you for even reading this…</h1>
+  <p>Whenever your heart is ready, mine is already waiting for you.</p>
+</div>
+</section>
+
+<section id="qrSection" class="ios-card">
+  <h2>Scan to keep me with you ❤️</h2>
+  <p class="qr-sub">
+    One scan, one tap, and I’ll always be right beside you.
+  </p>
+
+  <div class="qr-box">
+    <img id="qrImage" alt="Scan to keep me with you">
+  </div>
+
+  <p class="qr-note">
+    Add me to your home screen so I’m only one tap away.
+  </p>
+
+  <p class="qr-note">
+  Open this on your phone → Tap “Add to Home Screen” → Keep me forever 💕
+</p>
+</section>
+
+    <!-- Footer / Music -->
+    <section class="footer">
+      <audio id="song" src="assets/audio/your-song.mp3" preload="auto"></audio>
+      <button id="playBtn" class="cta">Listen your song</button>
+      <p class="note">This is just for you.</p>
+    </section>
+  </main>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
+
