@@ -1,0 +1,14 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore audio files
+*.mp3
+*.wav
+
+# Ignore node modules (if using npm)
+node_modules/
+
+# Ignore build or temp folders
+dist/
+temp/
